@@ -1,9 +1,13 @@
 package com.codecool.goats;
 
-public abstract class Predator extends Goat{
+import static com.codecool.goats.AttributeType.HEALTH;
+
+public abstract class Predator extends Goat implements CanAttack{
 
     public Predator() {
         GoatFarm.predators.add(this);
-        health = 50;
+        attr(HEALTH).setValue(50);
     }
+
+    abstract void attack();
 }

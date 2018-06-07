@@ -3,7 +3,7 @@ package com.codecool.goats;
 public class LazyGoat extends Victim{
 
     public LazyGoat() {
-        attributes.agility = 1;
-        health = 45;
+        attr(AttributeType.AGILITY).setValue(1);
+        attr(AttributeType.HEALTH).setValue(45);
     }
 }

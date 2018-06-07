@@ -8,8 +8,8 @@ public class GoatFarm {
     static List<Goat> goats = new ArrayList<>();
     static List<Victim> victims = new ArrayList<>();
     static List<Predator> predators = new ArrayList<>();
-    static List<Goat>females = new ArrayList<>();
-    static List<Goat>males = new ArrayList<>();
+    static List<Goat> females = new ArrayList<>();
+    static List<Goat> males = new ArrayList<>();
 
     void createGoats(int amountOfGoats){}
 
