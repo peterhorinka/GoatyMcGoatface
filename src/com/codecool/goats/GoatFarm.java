@@ -13,12 +13,12 @@ public class GoatFarm {
 
     void createGoats(int amountOfGoats){}
 
-    void cycle(int day){
-        if (night){
-            for (Predator predator : predators
-                 ) {attack();
-
-            }
-        }
-    }
+//    void cycle(int day){
+//        if (night){
+//            for (Predator predator : predators
+//                 ) {attack();
+//
+//            }
+//        }
+//    }
 }
